@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "env": {
+        "MONGODB_URI": "@my-mongodb-uri"
+    },
+    "routes": [
+        {
+            "src": "/app",
+            "dest": "/api/app.js"
+        },
+        {
+            "src": "/",
+            "dest": "../index.html"
+        },
+        {
+            "src": "/file",
+            "dest": "file.json"
+        }
+    ]   
+}
+

@@ -1,0 +1,32 @@
+{
+  "name": "test3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.5",
+    "fs": "0.0.1-security",
+    "json-stringify-safe": "^5.0.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.13",
+    "vercel": "^20.1.2"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.8.4"
+  },
+  "scripts": {
+    "start": "node api/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lachgar@github.com/lachgar/test3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lachgar/test3/issues"
+  },
+  "homepage": "https://github.com/lachgar/test3#readme"
+}
